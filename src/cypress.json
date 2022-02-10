@@ -1,0 +1,16 @@
+{
+    "viewportWidht": 980,
+    "experimentalSourceRewriting": true,
+    "viewportHeight": 1200,
+    "baseUrl": "https://stageintegrated.infotrack.com.au/",
+    "requestTimeout": 10000,
+    "pageLoadTimeout": 100000,
+    "video": false,
+    "chromeWebSecurity": false,
+    "retries": {
+        "runMode": 1
+    },
+    "env": {
+        "RETRIES": 2
+    }
+}

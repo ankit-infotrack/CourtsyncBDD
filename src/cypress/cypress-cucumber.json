@@ -1,0 +1,12 @@
+{
+    "viewportWidht": 980,
+    "viewportHeight": 1200,
+    "baseUrl": "",
+    "requestTimeout": 10000,
+    "pageLoadTimeout": 100000,
+    "integrationFolder": "cypress/integration/BDD/features",
+    "pluginsFile": "cypress/plugins/cucumber-plugins.js",
+    "retries": {
+        "runMode": 1
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "cypress-cucumber-example",
+    "version": "1.0.0",
+    "description": "Cypress cucumber example Test",
+    "repository": "https://github.com/julian-InfoTrack/cypress-cucumber-example",
+    "scripts": {
+        "cypress:run": "cypress run --browser chrome",
+        "cypress:open": "cypress open",
+        "cypress-run-cucumber": "cypress run --browser chrome --config-file cypress/cypress-cucumber.json"
+    },
+    "author": "",
+    "devDependencies": {
+        "cucumber": "^7.0.0-rc.0",
+        "cucumber-html-reporter": "^5.5.0",
+        "cypress": "^8.5.0",
+        "cypress-cucumber-preprocessor": "^4.3.0",
+        "cypress-plugin-retries": "^1.5.2",
+        "cypress-wait-until": "^1.7.2",
+        "cypress-xpath": "^1.6.2",
+        "multiple-cucumber-html-reporter": "^1.18.0"
+    },
+    "dependencies": {
+        "prettier": "^2.5.1"
+    },
+    "cypress-cucumber-preprocessor": {
+        "nonGlobalStepDefinitions": true,
+        "step_definitions": "cypress/integration/BDD/features/",
+        "cucumberJson": {
+            "generate": true,
+            "outputFolder": "cypress/cucumber-json",
+            "filePrefix": "",
+            "fileSuffix": ".cucumber"
+        }
+    }
+}

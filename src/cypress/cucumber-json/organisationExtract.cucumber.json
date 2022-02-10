@@ -1,0 +1,766 @@
+[
+  {
+    "description": "    The ASIC Organisation & Business Names search provides information on organisations and business \n    names recorded on ASICs registers",
+    "keyword": "Feature",
+    "name": "Organisation Extract",
+    "line": 1,
+    "id": "organisation-extract",
+    "tags": [],
+    "uri": "organisationExtract.feature",
+    "elements": [
+      {
+        "id": "organisation-extract;as-oe-001-place-an-order-for-current-&-historical-(2-year-doc-list)-and-none",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "AS-OE-001 Place an order for Current & Historical (2 Year Doc List) and None",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user logs in with valid credentials on web application",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#usernameTextbox`, but never found it.\n    at Context.eval (https://stagesearch.infotrack.com.au/__cypress/tests?p=cypress\\integration\\BDD\\features\\ASIC\\organisationExtract.feature:436:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user navigates to asic search",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on Organisation Extract tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user enters extract type - 'Current & Historical (2 Year Doc List)' and PPSR - 'None'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user places an order for organisation extract",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the user visualizes the organisation extract summary report",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "organisation-extract;as-oe-001-place-an-order-for-current-&-historical-(1-year-doc-list)-and-company-name",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "AS-OE-001 Place an order for Current & Historical (1 Year Doc List) and Company Name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user logs in with valid credentials on web application",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#usernameTextbox`, but never found it.\n    at Context.eval (https://stagesearch.infotrack.com.au/__cypress/tests?p=cypress\\integration\\BDD\\features\\ASIC\\organisationExtract.feature:436:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user navigates to asic search",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on Organisation Extract tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user enters extract type - 'Current & Historical (1 Year Doc List)' and PPSR - 'Company Name'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user places an order for organisation extract",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the user visualizes the organisation extract summary report",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "organisation-extract;as-oe-001-place-an-order-for-current-&-historical-and-acn",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "AS-OE-001 Place an order for Current & Historical and ACN",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user logs in with valid credentials on web application",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#usernameTextbox`, but never found it.\n    at Context.eval (https://stagesearch.infotrack.com.au/__cypress/tests?p=cypress\\integration\\BDD\\features\\ASIC\\organisationExtract.feature:436:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user navigates to asic search",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on Organisation Extract tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user enters extract type - 'Current & Historical' and PPSR - 'ACN'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user places an order for organisation extract",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the user visualizes the organisation extract summary report",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "organisation-extract;as-oe-001-place-an-order-for-current-(2-year-doc-list)-and-acn-&-company-name",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "AS-OE-001 Place an order for Current (2 Year Doc List) and ACN & Company Name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user logs in with valid credentials on web application",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#usernameTextbox`, but never found it.\n    at Context.eval (https://stagesearch.infotrack.com.au/__cypress/tests?p=cypress\\integration\\BDD\\features\\ASIC\\organisationExtract.feature:436:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user navigates to asic search",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on Organisation Extract tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user enters extract type - 'Current (2 Year Doc List)' and PPSR - 'ACN & Company Name'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user places an order for organisation extract",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the user visualizes the organisation extract summary report",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "organisation-extract;as-oe-001-place-an-order-for-current-(2-year-doc-list)-and-none",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "AS-OE-001 Place an order for Current (2 Year Doc List) and None",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user logs in with valid credentials on web application",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#usernameTextbox`, but never found it.\n    at Context.eval (https://stagesearch.infotrack.com.au/__cypress/tests?p=cypress\\integration\\BDD\\features\\ASIC\\organisationExtract.feature:436:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user navigates to asic search",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on Organisation Extract tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user enters extract type - 'Current (2 Year Doc List)' and PPSR - 'None'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user places an order for organisation extract",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the user visualizes the organisation extract summary report",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "organisation-extract;as-oe-002-user-is-notified-about-unavailable-abn-for-current-&-historical-and-acn,-abn-and-company-name",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "AS-OE-002 User is notified about unavailable ABN for Current & Historical and ACN, ABN and Company Name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user logs in with valid credentials on web application",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#usernameTextbox`, but never found it.\n    at Context.eval (https://stagesearch.infotrack.com.au/__cypress/tests?p=cypress\\integration\\BDD\\features\\ASIC\\organisationExtract.feature:436:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user navigates to asic search",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on Organisation Extract tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the user enters extract type - 'Current & Historical' and PPSR - 'ACN, ABN and Company Name'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "user visualizes an error message - 'Related ABN was not found. PPSR will not be included for this extract.'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "organisation-extract;as-oe-002-user-is-notified-about-unavailable-abn-for-relational-and-acn,-abn-and-company-name",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "AS-OE-002 User is notified about unavailable ABN for Relational and ACN, ABN and Company Name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user logs in with valid credentials on web application",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#usernameTextbox`, but never found it.\n    at Context.eval (https://stagesearch.infotrack.com.au/__cypress/tests?p=cypress\\integration\\BDD\\features\\ASIC\\organisationExtract.feature:436:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user navigates to asic search",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on Organisation Extract tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the user enters extract type - 'Relational' and PPSR - 'ACN, ABN and Company Name'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "user visualizes an error message - 'Related ABN was not found. PPSR will not be included for this extract.'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "organisation-extract;as-oe-002-user-is-notified-about-unavailable-abn-for-current-(1-year-doc-list)-and-abn",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "AS-OE-002 User is notified about unavailable ABN for Current (1 Year Doc List) and ABN",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user logs in with valid credentials on web application",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#usernameTextbox`, but never found it.\n    at Context.eval (https://stagesearch.infotrack.com.au/__cypress/tests?p=cypress\\integration\\BDD\\features\\ASIC\\organisationExtract.feature:436:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user navigates to asic search",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on Organisation Extract tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the user enters extract type - 'Current (1 Year Doc List)' and PPSR - 'ABN'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "user visualizes an error message - 'Related ABN was not found. PPSR will not be included for this extract.'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "organisation-extract;as-oe-003-place-an-order-for-company-extract-only-current-&-historical",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "AS-OE-003 Place an order for Company Extract only Current & Historical",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user logs in with valid credentials on web application",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#usernameTextbox`, but never found it.\n    at Context.eval (https://stagesearch.infotrack.com.au/__cypress/tests?p=cypress\\integration\\BDD\\features\\ASIC\\organisationExtract.feature:436:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user navigates to asic search",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on Organisation Extract tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "the user enters extract type - 'Current & Historical' and PPSR - 'None'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "the user places an order for organisation extract",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "the user visualizes the organisation extract summary report",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "organisation-extract;as-oe-003-place-an-order-for-company-extract-only-relational",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "AS-OE-003 Place an order for Company Extract only Relational",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user logs in with valid credentials on web application",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#usernameTextbox`, but never found it.\n    at Context.eval (https://stagesearch.infotrack.com.au/__cypress/tests?p=cypress\\integration\\BDD\\features\\ASIC\\organisationExtract.feature:436:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user navigates to asic search",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on Organisation Extract tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "the user enters extract type - 'Relational' and PPSR - 'None'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "the user places an order for organisation extract",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "the user visualizes the organisation extract summary report",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "organisation-extract;as-oe-003-place-an-order-for-company-extract-only-current-(1-year-doc-list)",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "AS-OE-003 Place an order for Company Extract only Current (1 Year Doc List)",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user logs in with valid credentials on web application",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#usernameTextbox`, but never found it.\n    at Context.eval (https://stagesearch.infotrack.com.au/__cypress/tests?p=cypress\\integration\\BDD\\features\\ASIC\\organisationExtract.feature:436:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user navigates to asic search",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on Organisation Extract tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "the user enters extract type - 'Current (1 Year Doc List)' and PPSR - 'None'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "the user places an order for organisation extract",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "the user visualizes the organisation extract summary report",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "organisation-extract;as-oe-003-place-an-order-for-company-extract-only-current-(2-year-doc-list)",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "AS-OE-003 Place an order for Company Extract only Current (2 Year Doc List)",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user logs in with valid credentials on web application",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#usernameTextbox`, but never found it.\n    at Context.eval (https://stagesearch.infotrack.com.au/__cypress/tests?p=cypress\\integration\\BDD\\features\\ASIC\\organisationExtract.feature:436:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user navigates to asic search",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user is on Organisation Extract tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "the user enters extract type - 'Current (2 Year Doc List)' and PPSR - 'None'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "the user places an order for organisation extract",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "the user visualizes the organisation extract summary report",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
